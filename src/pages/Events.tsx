@@ -25,6 +25,7 @@ const Events = () => {
       eventName, 
       properties: properties ? JSON.parse(properties) : {} 
     });
+    dataLayer.push({"event": "segment_track", "userId":userId, "properties": properties });
   };
 
   return (

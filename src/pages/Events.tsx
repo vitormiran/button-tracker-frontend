@@ -15,6 +15,7 @@ const Events = () => {
   const [properties, setProperties] = useState("");
 
   const handleIdentify = () => {
+    datalayer.push({"event": "segment_identify", "userId":userId, "traits": { "firstName": firstName, "lastName": lastName } });
     console.log("Identify:", { userId, firstName, lastName });
   };
 

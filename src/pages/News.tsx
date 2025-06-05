@@ -13,7 +13,8 @@ const News = () => {
   const [articles, setArticles] = useState<Article[]>([]);
 
   useEffect(() => {
-    fetch("/news.json")
+    const url = `${import.meta.env.BASE_URL}news.json`;
+    fetch(url)
       .then((res) => res.json())
       .then((data) => setArticles(data.articles))
       .catch((err) => console.error("Failed to load news", err));

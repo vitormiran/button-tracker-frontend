@@ -1,0 +1,25 @@
+{
+  "date": "2025-06-05",
+  "articles": [
+    {
+      "title": "Global markets rally as economic outlook improves",
+      "summary": "Stocks rose worldwide after new data pointed to a faster than expected recovery."
+    },
+    {
+      "title": "Scientists announce breakthrough in renewable energy",
+      "summary": "A new technology promises to make solar cells much cheaper."
+    },
+    {
+      "title": "Major tech conference highlights AI developments",
+      "summary": "Companies showcased new generative AI tools at the annual event."
+    },
+    {
+      "title": "Historic peace agreement signed by rival nations",
+      "summary": "Leaders hailed the accord as a new era of cooperation in the region."
+    },
+    {
+      "title": "Researchers find link between diet and longevity",
+      "summary": "A long-term study suggests whole grains could boost life expectancy."
+    }
+  ]
+}

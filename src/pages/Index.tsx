@@ -16,11 +16,19 @@ const Index = () => {
           New Client
         </ActionButton>
         
-        <ActionButton 
+
+        <ActionButton
           className="bg-gray-900 text-white hover:bg-gray-800"
           onClick={() => navigate("/events")}
         >
           Trigger Events
+        </ActionButton>
+
+        <ActionButton
+          className="bg-gray-100 text-gray-900 hover:bg-gray-200"
+          onClick={() => navigate("/news")}
+        >
+          News Today
         </ActionButton>
         
         <ActionButton className="bg-gray-100 text-gray-900 hover:bg-gray-200">
